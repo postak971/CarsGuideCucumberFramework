@@ -1,0 +1,14 @@
+-------------------------------------------------------------------------------
+Test set: runner.TestRunner
+-------------------------------------------------------------------------------
+Tests run: 1, Failures: 0, Errors: 1, Skipped: 0, Time elapsed: 77.18 sec <<< FAILURE! - in runner.TestRunner
+Searching for a new car(validation of car search page)  Time elapsed: 76.669 sec  <<< ERROR!
+org.openqa.selenium.NoSuchElementException: Cannot locate element with text: 1 Series
+For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'DESKTOP-L49GJNQ', ip: '192.168.1.4', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_251'
+Driver info: driver.version: unknown
+	at org.openqa.selenium.support.ui.Select.selectByVisibleText(Select.java:147)
+	at StepDefinitions.CarSearchSteps.i_select_Model_as(CarSearchSteps.java:90)
+	at ✽.I select Model as "1 Series"(file:src/test/resources/features/carSearch.feature:11)
+
